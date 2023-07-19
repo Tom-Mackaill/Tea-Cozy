@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/*Header Styles*/
+.nav-container {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    padding-left: 20px;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+/*End of header styles*/
+
+/*Section-1 styles*/
+.sec-1 {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url(/images/mission-background.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.sec-2 {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.pic-container {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.one {
+    background-image: url(/images/berryblitz.webp);
+    background-size: 100%;
+    background-repeat: none;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+
+.two {
+    background-image: url(/images/spiced-rum.webp);
+    background-size: 100%;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+
+.three {
+    background-image: url(/images/donut.webp);
+    background-size: 100%;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+
+.four {
+    background-image: url(/images/myrtle-ave.webp);
+    background-size: 100%;
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+
+.five {
+    background-image: url(/images/bedford-bizarre.webp);
+    background-size: 100%;
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+
+.text {
+    color: white;
+    background: transparent;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sec-3 {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/locations-background.webp);
+    background-size: 100%;
+    object-fit: contain;
+}
+
+.box-1, .box-2, .box-3 {
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.footer {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+h5 {
+    color: white;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+
+
